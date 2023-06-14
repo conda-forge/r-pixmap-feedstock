@@ -1,11 +1,11 @@
-About r-pixmap
-==============
+About r-pixmap-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pixmap-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=pixmap
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pixmap-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions for import, export, plotting and other manipulations of bitmapped images.
 
