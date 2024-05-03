@@ -1,4 +1,4 @@
-{% set version = "0.4-12" %}
+{% set version = "0.4-13" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pixmap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pixmap/pixmap_{{ version }}.tar.gz
-  sha256: 893ba894d4348ba05e6edf9c1b4fd201191816b444a214f7a6b2c0a79b0a2aec
+  sha256: e3dbc641a0497575b45a4140dadc6bf43cdf39b02393f93f1b0ee4f4d026e711
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
